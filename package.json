@@ -1,0 +1,24 @@
+{
+  "name": "object-run",
+  "version": "1.0.0",
+  "description": "Implements .run(..) method on object.",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flynx/object-run.js.git"
+  },
+  "keywords": [
+    "OOP",
+    "JavaScript",
+    "Object"
+  ],
+  "author": "Alex A. Naanou <alex.nanou@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/flynx/object-run.js/issues"
+  },
+  "homepage": "https://github.com/flynx/object-run.js#readme"
+}

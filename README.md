@@ -33,6 +33,20 @@ var o = {}
 	})
 ```
 
+## Examples
+
+```javascript
+var l = [1, 2, 3, 4, 5]
+	// keep only even elements...
+	.filter(function(e){
+		return e % 2 == 0 })
+	.sort()
+	// if length is not even add an extra even number at the end...
+	.run(function(){
+		this.length % 2 != 0
+			&& this.push(this[this.length-1] + 2) })
+```
+
 
 
 ## Components

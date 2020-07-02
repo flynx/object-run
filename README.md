@@ -1,6 +1,6 @@
 # object-run.js
 
-`object-run.js` implements the tools needed to use the [Concatinative 
+_object-run.js_ implements the tools needed to use the [Concatinative 
 Programming Style](https://en.wikipedia.org/wiki/Concatenative_programming_language) 
 on native JavaScript structures/objects.
 

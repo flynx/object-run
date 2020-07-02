@@ -1,16 +1,16 @@
 # object-run.js
 
+`object-run.js` implements the tools needed to use the [Concatinative 
+Programming Style](https://en.wikipedia.org/wiki/Concatenative_programming_language) 
+on native JavaScript structures/objects.
+
 This module defines a singe method `.run(..)` on `Object.prototype` making 
-it visible from all JavaScript objects inheriting from Object.
+it visible from all JavaScript objects inheriting from `Object`.
 
-The `.run(..)` method simply executes a function in the context of object 
-from which `.run(..)` was called.
-
-The return value of `.run(..)` is the non-`undefined` return value of the
-passed function.
-
-The use of `.run(..)` enables the concatinative programming style on any
-JavaScript structure/object.
+The `.run(..)` method simply executes a function in the context of the 
+object from which `.run(..)` was called. The return value of `.run(..)` 
+is the non-`undefined` return value of the passed function or the context 
+object otherwise.
 
 
 ## Installation
@@ -64,6 +64,9 @@ var l = [1, 2, 3, 4, 5]
 	-> undefined
 	-> <return-value>
 ```
+
+If `<func>()` returns `undefined` then `.run(..)` will return `<obj>`.
+
 
 
 ## License

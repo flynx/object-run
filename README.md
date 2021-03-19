@@ -33,6 +33,15 @@ var o = {}
 	})
 ```
 
+Conditionaly run a function...
+```javascript
+var o = {}
+	.run(o.x % 2 == 0,
+		function(){
+			this.x_is_odd = true
+		})
+```
+
 ## Examples
 
 ```javascript
@@ -55,6 +64,10 @@ var l = [1, 2, 3, 4, 5]
 
 ```
 <obj>.run(<func>)
+	-> <obj>
+	-> <return-value>
+
+<obj>.run(<cond>, <func>)
 	-> <obj>
 	-> <return-value>
 ```

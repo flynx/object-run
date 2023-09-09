@@ -86,7 +86,7 @@ If `<func>()` returns `undefined` then `.run(..)` will return `<obj>`.
 
 [BSD 3-Clause License](./LICENSE)
 
-Copyright (c) 2016-2020, Alex A. Naanou,  
+Copyright (c) 2016-2023, Alex A. Naanou,  
 All rights reserved.
 
 
